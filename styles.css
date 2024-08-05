@@ -72,8 +72,42 @@ h3{
     text-align: center;
 }
 
+.flag-pic{
+    width: 60%;
+    height: 20rem;
+    border: #444;
+    box-shadow: 0.5rem 0 0.5rem 0.5rem #116688;
+    margin: 5rem;
+}
+
 .hidden{
     display: none;
+}
+.choices-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 2rem;
+    border: 3px solid rgb(from 89 165 222 0.4);
+}
+
+.choices-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.3rem 1.5rem #116688;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: #116688;
+    color: antiquewhite;
+}
+.choicetext{
+    background-color: antiquewhite;
+    color: #116688;
+    padding: 1.5rem;
+    width: 100%;
 }
 
 .btn{
